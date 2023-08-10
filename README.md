@@ -10,8 +10,6 @@ Exploring frequency domain information is critical because ***JPEG*** compressio
 
 Our approach first transforms the spatial domain image to the frequency domain by the ***fast Fourier transform (FFT)***. We then introduce two core modules, ***Amplitude Correction Module (ACM)*** and ***Phase Correction Module (PCM)***, which facilitate interactive learning of spatial and frequency domain information. 
 
-Extensive experimental results performed on color and grayscale images have clearly demonstrated that our method achieves better results than the previous state-of-the-art methods. 
-
 ## Model
 
 The architecture of our network, which consists of two main modules: 
@@ -20,11 +18,9 @@ the ***Amplitude Correction Module (ACM)*** and the ***Phase Correction Module (
   
 Specifically, the ***ACM*** restores the amplitude spectrum of degraded images to remove JPEG artifacts, and the ***PCM*** restores the phase spectrum information to refine the highfrequency information.
 
-The f
+The following is the main architecture of our ***Dual-Domain Learning Network***:
 
 ![model](https://github.com/YeunkSuzy/Dual_Domain_Learning/assets/113883547/278fc390-9577-4449-937d-d149e8e0a227)
-
-The architecture of our network, which consists of two main modules: the Amplitude Correction Module (ACM) and the Phase Correction Module (PCM). Specifically, the ACM restores the amplitude spectrum of degraded images to remove JPEG artifacts, and the PCM restores the phase spectrum information to refine the highfrequency information.
 
 ## Results
 
@@ -46,4 +42,6 @@ The results of the ablation experiments conducted on the three datasets.
 
 ![3](https://github.com/YeunkSuzy/Dual_Domain_Learning/assets/113883547/59db89e0-260c-448b-be12-eae7c21d9e8e)
 
-#### Our code based on ***BasicSR***(https://github.com/XPixelGroup/BasicSR).
+## Acknowledgements 
+
+This project code is based on ***BasicSR***(https://github.com/XPixelGroup/BasicSR).
