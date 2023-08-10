@@ -24,16 +24,22 @@ Specifically, the ***ACM*** restores the amplitude spectrum of degraded images t
 
 ## Results
 
-___Table 1___. ***PSNR/SSIM/PSNR-B*** results of our method comparaed to other nine methods in three datasets, with the best outcomes being highlighted in red.
+___Table 1___. 
+
+***PSNR/SSIM/PSNR-B*** results of our method comparaed to other nine methods in three datasets, with the best outcomes being highlighted in red.
 
 ![1](https://github.com/YeunkSuzy/Dual_Domain_Learning/assets/113883547/e439d374-b39d-488a-ac5d-01ef0e3ede5e)
 
-___Table 2___. ***PSNR/SSIM/PSNR-B*** results of different methods on the three color datasets, with the best outcomes being highlighted in red.
+___Table 2___.
+
+***PSNR/SSIM/PSNR-B*** results of different methods on the three color datasets, with the best outcomes being highlighted in red.
 
 ![2](https://github.com/YeunkSuzy/Dual_Domain_Learning/assets/113883547/2a5fe5d6-1fb1-496f-b1db-be0fc47f55d5)
 
-___Table 3___. The results of the ablation experiments conducted on the three datasets.
+___Table 3___. 
+
+The results of the ablation experiments conducted on the three datasets.
 
 ![3](https://github.com/YeunkSuzy/Dual_Domain_Learning/assets/113883547/59db89e0-260c-448b-be12-eae7c21d9e8e)
 
-### Our code based on BasicSR.
+#### Our code based on ***BasicSR***(https://github.com/XPixelGroup/BasicSR).
