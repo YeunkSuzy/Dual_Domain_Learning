@@ -1,2 +1,0 @@
-# JPEG
-JPEG
